@@ -4,7 +4,7 @@ var int = 0;
 
 function timer() 
 {
-	document.getElementById("title").innerHTML = minutes + ":" + seconds;
+	document.getElementById("clock").innerHTML = minutes + ":" + seconds;
 	document.getElementById("timer").innerHTML = "<button id=\"timerButton\" type=\"button\" class=\"round\" onclick=\"abort()\"> Stop Timer </button>";
 	if(seconds == 59)
 	{
