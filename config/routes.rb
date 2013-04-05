@@ -10,6 +10,8 @@ SampleApp::Application.routes.draw do
 
   match '/signup', :to => 'users#new'
 
+  match '/timer', :to => 'pages#timer'
+
     # The priority is based upon order of creation:
   # first created -> highest priority.
 

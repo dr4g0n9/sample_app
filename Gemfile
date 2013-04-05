@@ -12,15 +12,20 @@ end
 
 group :development do
 	gem 'rspec-rails'
+
 end
 
 group :test do
 	gem 'rspec'
 end
 
+gem 'sprockets'
+gem 'railties'
+
+gem 'jquery-rails'
 gem 'pg'
 
-gem 'sprockets'
+
 
 
 # Gems used only for assets and not required

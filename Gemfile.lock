@@ -134,6 +134,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.12)
+  railties
   rspec
   rspec-rails
   sass-rails (~> 3.2.3)

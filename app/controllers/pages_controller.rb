@@ -16,4 +16,8 @@ class PagesController < ApplicationController
   	@title = "Help"
   end
 
+  def timer
+    @title = "Timer"
+  end
+
 end
